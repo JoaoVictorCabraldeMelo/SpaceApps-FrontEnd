@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import {StyleSheet, View} from 'react-native';
+import TabNavigator from '../components/BottomBar';
 
 const App = () => {
-  return <View style={styles.container} />;
+  return (
+    <View style={styles.container}>
+      <TabNavigator />
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({
