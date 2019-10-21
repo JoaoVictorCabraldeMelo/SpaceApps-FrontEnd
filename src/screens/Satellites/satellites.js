@@ -1,11 +1,12 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {SafeAreaView} from 'react-native';
+import ListSatellites from '../../components/ListSatellites';
 
 const Satellites = props => {
   return (
-    <View>
-      <Text>Satellites</Text>
-    </View>
+    <SafeAreaView>
+      <ListSatellites />
+    </SafeAreaView>
   );
 };
 
